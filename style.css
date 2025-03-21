@@ -76,3 +76,11 @@ footer {
     padding: 10px 8px;
     border-radius: 10px;
 }
+span{
+    font-family: "Work Sans", sans-serif;
+}
+footer > div {
+    width: 33.333333%;
+    display: flex;
+    justify-content: center;
+}
