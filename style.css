@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0%;
 }
@@ -23,7 +26,7 @@ header {
     font-weight: 400;
     font-style: normal;
   }
-.worksans{
+.work-sans{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -112,15 +115,45 @@ footer > div {
 .cv {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* personalizzo il riquadro del curriculum  */
 .curriculum {
-    width: 80%;
+    width: 65%;
     padding: 20px;
     border: 1px solid black;
 }
 
 .intestazione {
     text-align: center;
+}
+.fascia-download{
+    background-color: aqua;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottone{
+    background-color: blue;
+    color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+a {
+    text-transform: none;
+}
+.bottone:hover {
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+}
+.bonus {
+    height: 50vh;
 }
